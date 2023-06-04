@@ -1,0 +1,189 @@
+/* .tabDiv{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 28px;
+    height: 50px;
+}
+
+.tab1Div:hover, .tab2Div:hover, .tab3Div:hover{
+    border-bottom: 3px solid  rgb(255, 255, 255);
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.homeTabContent{
+    
+    height: 70vh;
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    position: relative;
+    line-height: 2.0em;
+    font-style: italic;
+    padding: 60px;
+    padding-top: 100px;
+    font-size: 20px;
+
+}
+  
+.homeTabContent::after {
+    content: "";
+    background: url("https://i0.wp.com/www.eatthis.com/wp-content/uploads/2018/12/mcdonalds-drive-through-restaurant.jpg");
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 70vw;
+    position: absolute;
+    z-index: -1;   
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.menuTabContent{
+    height: 50vh;
+    margin: 0 auto;
+    width: 60vw;
+    display: flex;
+    position: relative;
+    line-height: 2.0em;
+    font-style: italic;
+    padding: 60px;
+    padding-top: 60px;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+  
+.menuTabContent::after {
+    content: "";
+    background: url("https://www.mcdonalds.com/is/image/content/dam/usa/nfl/assets/hero/About_Our_Food_Hero_1260x560_Desktop.jpg?$Hero_Desktop$");
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 70vw;
+    position: absolute;
+    z-index: -1;   
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+
+.contactTabContent{
+    height: 50vh;
+    margin: 0 auto;
+    width: 60vw;
+    display: flex;
+    position: relative;
+    line-height: 2.0em;
+    font-style: italic;
+    padding: 60px;
+    padding-top: 60px;
+    font-size: 30px;
+}
+  
+.contactTabContent::after {
+    content: "";
+    background: url("https://images2.minutemediacdn.com/image/upload/c_crop,h_1349,w_2400,x_0,y_25/f_auto,q_auto,w_1100/v1583946867/shape/mentalfloss/620205-gettyimages-1011819188.jpg");
+    opacity: 0.2;
+    top: 0;
+    left: 0px;
+    bottom: 0;
+    right: 0;
+    width: 70vw;
+    position: absolute;
+    z-index: -1;   
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.menuItem{
+    height: 80px;
+    width: 500px;
+}
+
+body {
+    background: #191828;
+    color: #efedef;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    line-height: 1.6em;
+    margin: 0 auto;
+    padding: 100px; 
+}
+    
+h1 {
+    font-size: 70px;
+    line-height: 50%;
+    color: rgb(255, 255, 255);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+}
+
+.top-image{
+    margin:25px;
+    height: 700px;
+    width: 1200px;
+}
+
+#content{
+    min-height: 100vh;
+    text-align: center;
+}
+
+.image{
+    margin: 25px;
+    height: 400px;
+    width: 550px;
+}
+
+.landing-page-copy, .menu-copy, .contact-copy{
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+header{
+    background-color: blueviolet;
+    height: 50px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: 50px;
+   }
+
+
+li{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    border-radius: 5px 5px 0px 0px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    cursor: pointer;
+    width: 70px;
+}
